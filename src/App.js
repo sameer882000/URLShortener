@@ -2,12 +2,16 @@ import React from 'react';
 import Particles from "react-tsparticles";
 import './App.css';
 import particlesOptions from "./particles.json";
+import Footer from "./Components/Footer";
+import Header from './Components/Header';
 
 function App() {
     return (
-        <div className="App">
-            <Particles options={particlesOptions}/>
-        </div>
+      <div className="App">
+      <Header />
+        <Particles options={particlesOptions} />
+        <Footer />
+      </div>
     );
 }
 
