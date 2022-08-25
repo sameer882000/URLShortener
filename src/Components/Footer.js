@@ -30,7 +30,7 @@ const Footer = () => {
               src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"
             />{" "}
           </g-emoji>{" "}
-             by  Sameer
+             by  Sameer Sinha
         </h2>
       </p>
     </Box>
